@@ -765,7 +765,6 @@ label {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.04em;
-  /* color: rgba(117, 117, 117, 0.5); */
   color: #2e2f42;
 }
 .modal-form-btn {
@@ -793,6 +792,9 @@ label {
   transform: translate(0, -50%);
   left: 16px;
 }
-.form-icon-wrapper:hover {
+.form-icon-wrapper:hover,
+.form-icon-wrapper:focus {
   fill: var(--primary-brand);
+  border: 1px solid var(--pressed-state);
+  border-radius: 4px;
 }
