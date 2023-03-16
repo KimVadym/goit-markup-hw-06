@@ -11,6 +11,7 @@
   --hero-background: rgba(46, 47, 66, 0.7);
   --main: #ffffff;
   --transinion-btn: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --form-color: rgba(255, 255, 255, 0.6);
 }
 
 /*  =================nulling styles===================== */
@@ -494,7 +495,54 @@ footer {
 .footer-social:focus {
   background-color: var(--success);
 }
+/* ================================form=================== */
+.form-wrapper {
+  margin-left: 80px;
+}
 
+.form-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--main);
+}
+label {
+}
+input {
+  padding: 8px 16px;
+  width: 264px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: var(--form-color);
+}
+.form-btn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #4d5ae5;
+  border-radius: 4px;
+  border-color: transparent;
+  padding: 8px 24px;
+  margin-left: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: var(--main);
+}
+.form {
+  display: flex;
+  align-items: center;
+}
 /*----------------------------- portfolio-------------------- */
 
 /* ==============header========= */
@@ -661,4 +709,14 @@ footer {
   background-color: var(--pressed-state);
   fill: var(--main);
   border-color: transparent;
+}
+/* ==================modal-form==================== */
+.modal-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--dark);
 }
