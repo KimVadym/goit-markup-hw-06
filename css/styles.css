@@ -799,7 +799,6 @@ label {
   letter-spacing: 0.04em;
   color: #2e2f42;
 }
-
 .user-policy-item:before {
   display: block;
   content: "";
@@ -809,7 +808,6 @@ label {
   border-radius: 2px;
   cursor: pointer;
 }
-
 .check-icon:checked + .user-policy-item::before {
   background-color: var(--pressed-state);
   background-image: url(../images/vector.svg);
@@ -821,7 +819,6 @@ label {
 .check-icon:focus + .user-policy-item::before {
   outline: 1px solid var(--primary-brand);
 }
-
 .user-policy-item {
   display: flex;
   align-items: center;
