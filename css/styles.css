@@ -772,11 +772,11 @@ label {
   transition: border-color var(--transinion-btn);
 }
 .form-input:focus {
-  border-color: var(--primary-brand);
+  border: 1px solid var(--primary-brand);
   outline: none;
 }
 .icon-wrapper:focus {
-  border-color: var(--primary-brand);
+  border: 1px solid var(--primary-brand);
   fill: var(--primary-brand);
   outline: none;
 }
