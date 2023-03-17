@@ -1,6 +1,6 @@
 # goit-markup-hw-06
 
-<a> https://kimvadym.github.io/goit-markup-hw-06/>goit-markup-hw-06</a>
+<a> https://kimvadym.github.io/goit-markup-hw-06/ </a>
 Версія: 1.1
 Cтвори репозиторій goit-markup-hw-06.
 Склонуй створений репозиторій і скопіюй в нього файли попередньої роботи.
